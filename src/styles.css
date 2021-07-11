@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+}
+.addTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid grey;
+  background-color: ghostwhite;
+}
+.taskHeader {
+  padding: 10px;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: silver;
+}
+
+.taskItem .taskDate {
+  color: red;
+}
+.taskItem .taskMsg {
+  font-weight: bold;
+}
+
+select {
+  font-size: 16px;
+  height: 24px;
+  padding: 3px;
+}
